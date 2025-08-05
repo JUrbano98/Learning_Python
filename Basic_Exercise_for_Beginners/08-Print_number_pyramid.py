@@ -9,7 +9,7 @@ Print the following pattern:
 
 
 def print_pyramid(n):
-    for num in range(n):
+    for num in range(n+1):
         for i in range(num):
             print(num, end=" ")  # end=" " because usual end of a print is \n"
         print("\n")

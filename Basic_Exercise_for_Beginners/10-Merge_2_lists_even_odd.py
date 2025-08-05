@@ -3,6 +3,7 @@ Given two lists of numbers, write Python code to create a new list containing
 odd numbers from the first list and even numbers from the second list.
 '''
 
+
 def merge_special(str1, str2):
     result = []
     for i in str1:
